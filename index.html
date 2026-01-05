@@ -1,1 +1,207 @@
+<!doctype html>
+<html lang='en'>
 
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Abderrazak Raouah – Data Analytics Portfolio</title>
+  <meta name='description' content='Data analytics portfolio showcasing projects, visualizations, and skills.'>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+  <header class='site-header'>
+    <div class='container header-content'>
+      <div class='brand'>
+        <h1 class='name'>Abderrazak Raouah</h1>
+        <p class='tagline'>Junior Data Analyst · Python • SQL • Tableau</p>
+      </div>
+      <nav class='site-nav' aria-label='Primary'>
+        <ul class='nav'>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#skills'>Skills</a></li>
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#viz'>Visualizations</a></li>
+          <li><a href='#contact'>Contact</a></li>
+          <li><a href='assets/resume.pdf'>Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id='main'>
+    <section class='hero'>
+      <div class='container hero-grid'>
+        <div>
+          <h2>Turning data into clear, actionable insights</h2>
+          <p class='muted'>I analyze datasets, build dashboards, and communicate results. Currently focusing on Python
+            (pandas), SQL, and Tableau/Power BI.</p>
+          <div class='actions'>
+            <a class='btn' href='#projects'>View Projects</a>
+            <a class='btn btn-outline' href='#contact'>Get in Touch</a>
+          </div>
+        </div>
+        <aside class='card hero-card'>
+          <img class='profile' src='assets/Abderrazak_Raouah.jpg' alt='Profile photo'>
+          <ul class='quick-links'>
+            <li><a href='assets/Abderrazak_Resume.pdf'>Download Resume (PDF)</a></li>
+            <li><a href='https://github.com/yourusername' target='_blank' rel='noopener'>GitHub</a></li>
+            <li><a href='https://www.linkedin.com/in/yourusername' target='_blank' rel='noopener'>LinkedIn</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id='about' class='section section-alt'>
+      <div class='container two-col'>
+        <div>
+          <h2>About Me</h2>
+          <p>I’m a beginner-friendly, detail-oriented data analyst learning Python and SQL. I enjoy cleaning messy data,
+            building intuitive dashboards, and explaining insights clearly.</p>
+          <p class='meta'>Based in Alexandria, VA · Open to junior analyst roles</p>
+        </div>
+        <div>
+          <h3>Focus Areas</h3>
+          <ul class='bullets'>
+            <li>Data wrangling (pandas, NumPy)</li>
+            <li>Exploratory analysis & visualization (Matplotlib, Seaborn)</li>
+            <li>Dashboards & storytelling (Tableau, Power BI)</li>
+            <li>SQL queries & basic data modeling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id='skills' class='section'>
+      <div class='container'>
+        <h2>Skills</h2>
+        <div class='skills-grid'>
+          <div class='skill-card'>
+            <h3>Languages & Libraries</h3>
+            <ul class='bullets'>
+              <li>Python: pandas, NumPy, Matplotlib, Seaborn</li>
+              <li>SQL: joins, window functions, aggregation</li>
+              <li>Excel (advanced functions)</li>
+            </ul>
+          </div>
+          <div class='skill-card'>
+            <h3>BI & Tools</h3>
+            <ul class='bullets'>
+              <li>Tableau, Power BI</li>
+              <li>Git/GitHub, VS Code, Jupyter</li>
+              <li>Data sourcing (APIs, CSVs, Kaggle)</li>
+            </ul>
+          </div>
+          <div class='skill-card'>
+            <h3>Analytics</h3>
+            <ul class='bullets'>
+              <li>Descriptive statistics, KPI definition</li>
+              <li>Hypothesis testing (t-test, chi-square)</li>
+              <li>Basic ML: regression, classification (scikit-learn)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id='projects' class='section section-alt'>
+      <div class='container'>
+        <h2>Projects</h2>
+        <p class='muted'>Selected analytics projects with code, datasets, and insights.</p>
+        <div class='projects-grid'>
+          <article class='project-card'>
+            <div class='project-thumb'>
+              <img src='assets/project1.png' alt='Retail dashboard thumbnail'>
+            </div>
+            <div class='project-body'>
+              <h3>Retail Sales Performance Dashboard</h3>
+              <p>Cleaned 12 months of transaction data, built a Tableau dashboard to track revenue, AOV, and
+                top-performing regions.</p>
+              <p class='tags'><span>Python</span><span>SQL</span><span>Tableau</span></p>
+              <div class='links'>
+                <a href='https://github.com/yourusername/retail-sales-dashboard' target='_blank'
+                  rel='noopener'>GitHub</a>
+                <a href='https://public.tableau.com/profile/yourusername' target='_blank' rel='noopener'>Tableau
+                  Public</a>
+              </div>
+            </div>
+          </article>
+          <article class='project-card'>
+            <div class='project-thumb'>
+              <img src='assets/project2.png' alt='Churn analysis thumbnail'>
+            </div>
+            <div class='project-body'>
+              <h3>Customer Churn Analysis & Prediction</h3>
+              <p>Engineered features and trained a logistic regression model (ROC-AUC 0.86). Produced retention segments
+                and a monitoring dashboard.</p>
+              <p class='tags'><span>pandas</span><span>scikit-learn</span><span>Power BI</span></p>
+              <div class='links'>
+                <a href='https://github.com/yourusername/churn-analysis' target='_blank' rel='noopener'>GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class='project-card'>
+            <div class='project-thumb'>
+              <img src='assets/project3.png' alt='AB test thumbnail'>
+            </div>
+            <div class='project-body'>
+              <h3>Website A/B Test: CTA Optimization</h3>
+              <p>Designed and analyzed an A/B test for a new CTA. Confirmed significant uplift in conversions (p <
+                  0.05). Built a real-time dashboard.</p>
+                  <p class='tags'><span>Python</span><span>Statistics</span><span>Tableau</span></p>
+                  <div class='links'>
+                    <a href='https://github.com/yourusername/ab-test-cta' target='_blank' rel='noopener'>GitHub</a>
+                  </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id='viz' class='section'>
+      <div class='container'>
+        <h2>Visualizations</h2>
+        <p class='muted'>A gallery of charts and dashboards illustrating different techniques.</p>
+        <div class='viz-grid'>
+          <figure class='viz-card'>
+            <img src='assets/viz1.png' alt='Revenue line chart'>
+            <figcaption>Revenue by month – line chart (Matplotlib)</figcaption>
+          </figure>
+          <figure class='viz-card'>
+            <img src='assets/viz2.png' alt='Feature importance bar chart'>
+            <figcaption>Feature importance – bar chart (Seaborn)</figcaption>
+          </figure>
+          <figure class='viz-card'>
+            <img src='assets/viz3.png' alt='Customer segments scatter plot'>
+            <figcaption>Customer segments – scatter plot (Seaborn)</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id='contact' class='section'>
+      <div class='container'>
+        <h2>Contact</h2>
+        <p>Feel free to reach out—happy to share more about my projects and learning journey.</p>
+        <ul class='contact-list'>
+          <li><strong>Email:</strong> <a href='mailto:your.email@example.com'>your.email@example.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href='https://www.linkedin.com/in/yourusername' target='_blank'
+              rel='noopener'>linkedin.com/in/yourusername</a></li>
+          <li><strong>GitHub:</strong> <a href='https://github.com/yourusername' target='_blank'
+              rel='noopener'>github.com/yourusername</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class='site-footer' role='contentinfo'>
+    <div class='container'>
+      <p class='muted'>© <span id='year'></span> Abderrazak Raouah · Data Analytics Portfolio</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+
+</html>
